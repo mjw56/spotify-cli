@@ -9,12 +9,24 @@ def factorial(n)
 end
 
 def multiply(a, b)
-  raise "multiply must take two arguments" if b == nil
   a * b
+end
+
+def add(a, b)
+  a + b
+end
+
+def subtract(a, b)
+  a - b
+end
+
+def divide(a, b)
+  a / b
 end
 
 puts factorial(1)
 puts factorial(5)
-puts factorial(0)
 puts multiply(2, 2)
-puts multiply (2)
+puts add(3, 3)
+puts subtract(3, 4)
+puts divide(4, 2)
